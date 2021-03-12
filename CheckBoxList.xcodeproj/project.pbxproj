@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE28CD5525F26BB000A44595 /* FakeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE28CD5425F26BB000A44595 /* FakeInteractor.swift */; };
+		CEA1E18625FC05E600C9A5E5 /* FakeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E18525FC05E600C9A5E5 /* FakeModel.swift */; };
+		CEA1E18A25FC05F300C9A5E5 /* FakeInteracting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E18925FC05F300C9A5E5 /* FakeInteracting.swift */; };
+		CEA1E18D25FC064E00C9A5E5 /* FakeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E18C25FC064E00C9A5E5 /* FakeStore.swift */; };
+		CEA1E19825FCA1B800C9A5E5 /* MVVMSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E19725FCA1B800C9A5E5 /* MVVMSolutionView.swift */; };
+		CEA1E19C25FCA1CA00C9A5E5 /* MVVMSolutionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E19B25FCA1CA00C9A5E5 /* MVVMSolutionViewModel.swift */; };
+		CEA1E19F25FCA1E400C9A5E5 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E19E25FCA1E400C9A5E5 /* CellView.swift */; };
+		CEA1E1A225FCA1F600C9A5E5 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1A125FCA1F600C9A5E5 /* CellViewModel.swift */; };
+		CEA1E1A525FCA20E00C9A5E5 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1A425FCA20E00C9A5E5 /* CheckboxView.swift */; };
+		CEA1E1A925FCA22800C9A5E5 /* CheckboxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1A825FCA22800C9A5E5 /* CheckboxViewModel.swift */; };
+		CEA1E1AD25FCA84D00C9A5E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1AC25FCA84D00C9A5E5 /* ContentView.swift */; };
+		CEA1E1B925FCC34E00C9A5E5 /* FlatSolutionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1B825FCC34E00C9A5E5 /* FlatSolutionViewModel.swift */; };
+		CEA1E1BC25FCC38500C9A5E5 /* FlatSolutionItemViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA1E1BB25FCC38500C9A5E5 /* FlatSolutionItemViewData.swift */; };
+		CED7E33A25EEB8D400D2D709 /* CheckBoxListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7E33925EEB8D400D2D709 /* CheckBoxListApp.swift */; };
+		CED7E33E25EEB8D700D2D709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED7E33D25EEB8D700D2D709 /* Assets.xcassets */; };
+		CED7E34125EEB8D700D2D709 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED7E34025EEB8D700D2D709 /* Preview Assets.xcassets */; };
+		CED7E3A325F047E400D2D709 /* FlatSolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7E3A225F047E400D2D709 /* FlatSolutionView.swift */; };
+		CED7E3C225F14D2500D2D709 /* Combine+CombineLatestMany.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7E3C125F14D2400D2D709 /* Combine+CombineLatestMany.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE28CD5425F26BB000A44595 /* FakeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeInteractor.swift; sourceTree = "<group>"; };
+		CEA1E18525FC05E600C9A5E5 /* FakeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeModel.swift; sourceTree = "<group>"; };
+		CEA1E18925FC05F300C9A5E5 /* FakeInteracting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeInteracting.swift; sourceTree = "<group>"; };
+		CEA1E18C25FC064E00C9A5E5 /* FakeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeStore.swift; sourceTree = "<group>"; };
+		CEA1E19725FCA1B800C9A5E5 /* MVVMSolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSolutionView.swift; sourceTree = "<group>"; };
+		CEA1E19B25FCA1CA00C9A5E5 /* MVVMSolutionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMSolutionViewModel.swift; sourceTree = "<group>"; };
+		CEA1E19E25FCA1E400C9A5E5 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		CEA1E1A125FCA1F600C9A5E5 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		CEA1E1A425FCA20E00C9A5E5 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		CEA1E1A825FCA22800C9A5E5 /* CheckboxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxViewModel.swift; sourceTree = "<group>"; };
+		CEA1E1AC25FCA84D00C9A5E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEA1E1B825FCC34E00C9A5E5 /* FlatSolutionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatSolutionViewModel.swift; sourceTree = "<group>"; };
+		CEA1E1BB25FCC38500C9A5E5 /* FlatSolutionItemViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatSolutionItemViewData.swift; sourceTree = "<group>"; };
+		CED7E33625EEB8D400D2D709 /* CheckBoxList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED7E33925EEB8D400D2D709 /* CheckBoxListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxListApp.swift; sourceTree = "<group>"; };
+		CED7E33D25EEB8D700D2D709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED7E34025EEB8D700D2D709 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED7E34225EEB8D700D2D709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED7E3A225F047E400D2D709 /* FlatSolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatSolutionView.swift; sourceTree = "<group>"; };
+		CED7E3C125F14D2400D2D709 /* Combine+CombineLatestMany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Combine+CombineLatestMany.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED7E33325EEB8D400D2D709 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA1E18425FC05CA00C9A5E5 /* FakeNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				CE28CD5425F26BB000A44595 /* FakeInteractor.swift */,
+				CEA1E18525FC05E600C9A5E5 /* FakeModel.swift */,
+				CEA1E18925FC05F300C9A5E5 /* FakeInteracting.swift */,
+				CEA1E18C25FC064E00C9A5E5 /* FakeStore.swift */,
+			);
+			path = FakeNetworking;
+			sourceTree = "<group>";
+		};
+		CEA1E19525FCA17200C9A5E5 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1E19725FCA1B800C9A5E5 /* MVVMSolutionView.swift */,
+				CEA1E19B25FCA1CA00C9A5E5 /* MVVMSolutionViewModel.swift */,
+				CEA1E19E25FCA1E400C9A5E5 /* CellView.swift */,
+				CEA1E1A125FCA1F600C9A5E5 /* CellViewModel.swift */,
+				CEA1E1A425FCA20E00C9A5E5 /* CheckboxView.swift */,
+				CEA1E1A825FCA22800C9A5E5 /* CheckboxViewModel.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		CEA1E19625FCA17D00C9A5E5 /* Flat */ = {
+			isa = PBXGroup;
+			children = (
+				CED7E3A225F047E400D2D709 /* FlatSolutionView.swift */,
+				CEA1E1B825FCC34E00C9A5E5 /* FlatSolutionViewModel.swift */,
+				CEA1E1BB25FCC38500C9A5E5 /* FlatSolutionItemViewData.swift */,
+			);
+			path = Flat;
+			sourceTree = "<group>";
+		};
+		CED7E32D25EEB8D400D2D709 = {
+			isa = PBXGroup;
+			children = (
+				CED7E33825EEB8D400D2D709 /* CheckBoxList */,
+				CED7E33725EEB8D400D2D709 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED7E33725EEB8D400D2D709 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED7E33625EEB8D400D2D709 /* CheckBoxList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED7E33825EEB8D400D2D709 /* CheckBoxList */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1E18425FC05CA00C9A5E5 /* FakeNetworking */,
+				CED7E3C425F25FA500D2D709 /* Solutions */,
+				CED7E3C125F14D2400D2D709 /* Combine+CombineLatestMany.swift */,
+				CED7E33925EEB8D400D2D709 /* CheckBoxListApp.swift */,
+				CEA1E1AC25FCA84D00C9A5E5 /* ContentView.swift */,
+				CED7E33D25EEB8D700D2D709 /* Assets.xcassets */,
+				CED7E34225EEB8D700D2D709 /* Info.plist */,
+				CED7E33F25EEB8D700D2D709 /* Preview Content */,
+			);
+			path = CheckBoxList;
+			sourceTree = "<group>";
+		};
+		CED7E33F25EEB8D700D2D709 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED7E34025EEB8D700D2D709 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED7E3C425F25FA500D2D709 /* Solutions */ = {
+			isa = PBXGroup;
+			children = (
+				CEA1E19525FCA17200C9A5E5 /* MVVM */,
+				CEA1E19625FCA17D00C9A5E5 /* Flat */,
+			);
+			path = Solutions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED7E33525EEB8D400D2D709 /* CheckBoxList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED7E34525EEB8D700D2D709 /* Build configuration list for PBXNativeTarget "CheckBoxList" */;
+			buildPhases = (
+				CED7E33225EEB8D400D2D709 /* Sources */,
+				CED7E33325EEB8D400D2D709 /* Frameworks */,
+				CED7E33425EEB8D400D2D709 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckBoxList;
+			productName = CheckBoxList;
+			productReference = CED7E33625EEB8D400D2D709 /* CheckBoxList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED7E32E25EEB8D400D2D709 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CED7E33525EEB8D400D2D709 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CED7E33125EEB8D400D2D709 /* Build configuration list for PBXProject "CheckBoxList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED7E32D25EEB8D400D2D709;
+			productRefGroup = CED7E33725EEB8D400D2D709 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED7E33525EEB8D400D2D709 /* CheckBoxList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED7E33425EEB8D400D2D709 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED7E34125EEB8D700D2D709 /* Preview Assets.xcassets in Resources */,
+				CED7E33E25EEB8D700D2D709 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED7E33225EEB8D400D2D709 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA1E19F25FCA1E400C9A5E5 /* CellView.swift in Sources */,
+				CEA1E1BC25FCC38500C9A5E5 /* FlatSolutionItemViewData.swift in Sources */,
+				CE28CD5525F26BB000A44595 /* FakeInteractor.swift in Sources */,
+				CEA1E1AD25FCA84D00C9A5E5 /* ContentView.swift in Sources */,
+				CED7E3C225F14D2500D2D709 /* Combine+CombineLatestMany.swift in Sources */,
+				CEA1E19825FCA1B800C9A5E5 /* MVVMSolutionView.swift in Sources */,
+				CED7E33A25EEB8D400D2D709 /* CheckBoxListApp.swift in Sources */,
+				CEA1E19C25FCA1CA00C9A5E5 /* MVVMSolutionViewModel.swift in Sources */,
+				CEA1E1A525FCA20E00C9A5E5 /* CheckboxView.swift in Sources */,
+				CEA1E18625FC05E600C9A5E5 /* FakeModel.swift in Sources */,
+				CEA1E1A925FCA22800C9A5E5 /* CheckboxViewModel.swift in Sources */,
+				CEA1E18A25FC05F300C9A5E5 /* FakeInteracting.swift in Sources */,
+				CEA1E18D25FC064E00C9A5E5 /* FakeStore.swift in Sources */,
+				CEA1E1B925FCC34E00C9A5E5 /* FlatSolutionViewModel.swift in Sources */,
+				CEA1E1A225FCA1F600C9A5E5 /* CellViewModel.swift in Sources */,
+				CED7E3A325F047E400D2D709 /* FlatSolutionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CED7E34325EEB8D700D2D709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED7E34425EEB8D700D2D709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED7E34625EEB8D700D2D709 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckBoxList/Preview Content\"";
+				DEVELOPMENT_TEAM = 965P942QJ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckBoxList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adic.CheckBoxList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED7E34725EEB8D700D2D709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CheckBoxList/Preview Content\"";
+				DEVELOPMENT_TEAM = 965P942QJ6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CheckBoxList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = adic.CheckBoxList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED7E33125EEB8D400D2D709 /* Build configuration list for PBXProject "CheckBoxList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7E34325EEB8D700D2D709 /* Debug */,
+				CED7E34425EEB8D700D2D709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED7E34525EEB8D700D2D709 /* Build configuration list for PBXNativeTarget "CheckBoxList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED7E34625EEB8D700D2D709 /* Debug */,
+				CED7E34725EEB8D700D2D709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED7E32E25EEB8D400D2D709 /* Project object */;
+}
