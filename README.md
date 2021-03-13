@@ -6,7 +6,7 @@ This is a simple excercise of checkbox list implementation using Combine and Swi
 
 1. Fork this repository
   
-2. Send button logic - first implement validation (at least one checkbox checked). On press send, present an alert with a message listing all of the checked or unchecked items (whichever there is less of at the current moment). Don't count sections as items. `sendEnabled`, `sendPressed`, `alertIsPresented` and `alertText` are already present in the view model & attached to the view 
+2. Send button logic - first implement validation (button enabled if at least one checkbox checked). On press send, present an alert with a message listing all of the checked or unchecked items (whichever there is less of at the current moment). Don't count sections as items. `sendEnabled`, `sendPressed`, `alertIsPresented` and `alertText` are already present in the view model & attached to the view 
 
 3. In group called `FakeNetworking` there's a class named `FakeInteractor`. It's cause is to provide our app with fake data for list items - sometimes they are nested into sections, sometimes it's just a plain list. The data model that this interactor uses is called `FakeModel` - take a good look at it's properties ;)
 
